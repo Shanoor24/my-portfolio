@@ -71,7 +71,7 @@ export const Greeting = () => {
                             <br />
 
                             <NavLink
-                                to="/Documents/Shanoor_CV.pdf"
+                                to="/Documents/Shanoor_resume.pdf"
                                 target="_blank"
                                 download
                                 style={{ textDecoration: "none" }}

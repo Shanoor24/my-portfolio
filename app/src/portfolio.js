@@ -2,11 +2,11 @@ export const greeting = {
     title: "Hi, I'm Shanoor ",
     emogi: `emoji("👋")`,
     logo_name: "Shanoor",
-    post: "Full-Stack Web Developer",
+    post: "Frontend Developer",
     subTitle:
-        "I am an aspiring and passionate Full Stack Web Developer, familiar with a wide range of technologies including MERN stack, Data structure and Algorithms. Excellent team player and complex problem solver with an analytical mindset.",
+        "Results-driven software engineer with 2 years of experience in web and mobile development. Proficient in Javascript, Jquery, React, Redux, and React Native. Strong problem-solving skills, collaborative mindset, and passion for delivering high-quality solutions. Seeking opportunities to contribute expertise and drive business growth. ",
     resumeLink:
-        "https://drive.google.com/file/d/1rNKjxPQNaEg7zAHzMGSbuy8-58lbao_8/view?usp=sharing",
+        "https://drive.google.com/file/d/1s21tRb0AbCs5vQgm5dBwsHZmxmNqJcFF/view?usp=drive_link",
     portfolioRepository:
         "https://github.com/Shanoor24/Shanoor24",
 };
@@ -154,50 +154,49 @@ export const projectLinks = [
 
 export const frontend_skills = [
     {
-        name: "HTML-5",
-        image: "/Images/html5.svg",
-    },
-    {
-        name: "CSS-3",
-        image: "/Images/css3.svg",
-    },
-
-    {
         name: "React",
         image: "/Images/react.svg",
     },
-    {
-        name: "Redux",
-        image: "/Images/redux.svg",
-    }
-    // {
-    //     name: "Material-UI",
-    //     image: "/Images/mui.svg",
-    // },
-];
-
-export const backend_skills = [
     {
         name: "JavaScript",
         image: "/Images/js.svg",
     },
     {
-        name: "Node js",
-        image: "/Images/node.svg",
+        name: "Redux",
+        image: "/Images/redux.svg",
     },
     {
-        name: "Express js",
-        image: "/Images/express.svg",
+        name: "CSS-3",
+        image: "/Images/css3.svg",
     },
+    {
+        name: "AntD",
+        image: "/Images/antD.png",
+    },
+];
 
+export const backend_skills = [
     {
-        name: "MongoDB",
-        image: "/Images/mongo.svg",
-    }
-    // {
-    //     name: "Firebase",
-    //     image: "/Images/firebase.svg",
-    // },
+        name: "React Native",
+        image: "/Images/reactNative.png",
+    },
+    {
+        name: "jQuery",
+        image: "/Images/jQuery.png",
+    },
+    {
+        name: "HTML-5",
+        image: "/Images/html5.svg",
+    },
+    {
+        name: "Gatsby",
+        image: "/Images/gatsby.png",
+    },
+    {
+        name: "Material-UI",
+        image: "/Images/mui.svg",
+    },
+    
 ];
 
 export const blogs = [

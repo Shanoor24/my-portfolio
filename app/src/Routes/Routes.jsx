@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import { Navbar } from "../Components/Navbar/Navbar";
 import { Greeting } from "../Components/Greeting/Greeting";
 import { Qualifications } from "../Components/Qualifications/Qualifications";
+import { Experiences } from "../Components/Experiences/Experiences"
 import { Skills } from "./../Components/Skills/Skills";
 import { Projects } from "./../Components/Projects/Projects";
 import { Blogs } from "./../Components/Blogs/Blogs";
@@ -17,6 +18,10 @@ export const Routes = () => {
                 </Route>
                 <Route path="/home">
                     <Greeting />
+                </Route>
+
+                <Route path="/experiences">
+                    <Experiences />
                 </Route>
 
                 <Route path="/qualifications">

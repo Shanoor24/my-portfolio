@@ -27,6 +27,8 @@ import ContactMailIcon from "@material-ui/icons/ContactMail";
 import CallTwoToneIcon from "@material-ui/icons/CallTwoTone";
 import { useHistory } from "react-router-dom";
 import HomeTwoToneIcon from "@material-ui/icons/HomeTwoTone";
+import WorkIcon from "@material-ui/icons/Work";
+
 // import DraftsTwoToneIcon from "@material-ui/icons/DraftsTwoTone";
 import { NavLink } from "react-router-dom";
 
@@ -137,6 +139,7 @@ export const Navbar = () => {
             <List>
                 {[
                     "Home",
+                    "Experiences",
                     "Qualifications",
                     "Skills",
                     "Projects",
@@ -152,12 +155,14 @@ export const Navbar = () => {
                             {index === 0 ? (
                                 <HomeTwoToneIcon />
                             ) : index === 1 ? (
-                                <NoteIcon />
+                                <WorkIcon />
                             ) : index === 2 ? (
-                                <SettingsEthernetIcon />
+                                <NoteIcon />
                             ) : index === 3 ? (
-                                <DeveloperModeIcon />
+                                <SettingsEthernetIcon />
                             ) : index === 4 ? (
+                                <DeveloperModeIcon />
+                            ) : index === 5 ? (
                                 <AssignmentIcon />
                             ) : (
                                 <ContactMailIcon />
@@ -224,9 +229,25 @@ export const Navbar = () => {
                         style={{
                             display: "flex",
                             gap: "10%",
-                            marginRight: "8%",
+                            marginRight: "10%",
                         }}
                     >
+                        <Typography
+                            variant="h6"
+                            color="inherit"
+                            className={`${classes.title} ${styles.typography}`}
+                            // onClick={() => handleNavigation("qualifications")}
+                        >
+                            <NavLink
+                                to="/experiences"
+                                activeStyle={{
+                                    color: "teal",
+                                }}
+                                style={{ color: "inherit", textTransform:"capitalize", fontWeight:"900", fontFamily:"Ro" }}
+                            >
+                                Experience
+                            </NavLink>
+                        </Typography>
                         <Typography
                             variant="h6"
                             color="inherit"

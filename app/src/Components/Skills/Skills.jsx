@@ -21,7 +21,7 @@ export const Skills = () => {
                         // border: "solid 1px red",
                     }}
                 >
-                    <h3 style={{ color: theme.text }}>Frontend</h3>
+                    {/* <h3 style={{ color: theme.text }}>Frontend</h3> */}
                     {frontend_skills.map((item) => {
                         return (
                             <div style={{ marginBottom: "10%" }}>
@@ -45,7 +45,7 @@ export const Skills = () => {
                         // border: "solid 1px red",
                     }}
                 >
-                    <h3 style={{ color: theme.text }}>Backend</h3>
+                    {/* <h3 style={{ color: theme.text }}>Backend</h3> */}
                     {backend_skills.map((item) => {
                         return (
                             <div style={{ marginBottom: "10%" }}>

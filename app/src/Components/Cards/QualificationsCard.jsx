@@ -6,8 +6,8 @@ import CardContent from "@material-ui/core/CardContent";
 // import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { darkTheme } from "./../../theme";
-// import { NavLink } from "react-router-dom";
-// import { Button } from "./../Button/Button";
+import { NavLink } from "react-router-dom";
+import { Button } from "./../Button/Button";
 
 const useStyles = makeStyles({
     root: {
@@ -61,7 +61,7 @@ export const QualificationsCard = ({ item }) => {
                     {item.duration}
                 </Typography>
 
-                {/* <NavLink
+                {(item.navigate_to && item.button_name) && <NavLink
                     to={`//${item.navigate_to}`}
                     target="_blank"
                     style={{
@@ -71,13 +71,13 @@ export const QualificationsCard = ({ item }) => {
                     }}
                 >
                     <Button
-                        text="Explore"
+                        text={item.button_name}
                         newTab={true}
                         // href={greeting.resumeLink}
                         theme={theme}
                         // className={styles.portfolio_repo_btn}
                     />
-                </NavLink> */}
+                </NavLink>}
             </CardContent>
         </Card>
     );

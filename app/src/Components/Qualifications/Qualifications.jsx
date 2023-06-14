@@ -14,23 +14,23 @@ const data = [
         title: "Full-Stack Web Developer",
         organization: "Masai School",
         duration: "January 2021 - August 2021 | Remote",
-        navigate_to: "github.com/SumanChakraborty1998",
+        // navigate_to: "github.com/SumanChakraborty1998",
     },
     {
         logo: "/Images/rcu.png",
         title: "Bachelor of commerce",
         organization: "Rani Channamma University, Belagavi, Karnataka. 591156.",
         duration: "June 2015 - September 2018 | Belgaum, Karnataka",
-        navigate_to:
-            "drive.google.com/drive/folders/1UMMC91ssrU46gTE6-sBCpWGkDxob0tDU?usp=sharing",
+        // navigate_to:
+        //     "drive.google.com/drive/folders/1UMMC91ssrU46gTE6-sBCpWGkDxob0tDU?usp=sharing",
     },
     {
         logo: "/Images/puc.png",
         title: "Higher Secondary Examination",
         organization: "Karnataka P.U Board",
         duration: "June 2013 - May - 2015 | Karnataka",
-        navigate_to:
-            "drive.google.com/file/d/1z2ko3Do7TA2i35gK-C9S1seaQpEBeABk/view?usp=sharing",
+        // navigate_to:
+        //     "drive.google.com/file/d/1z2ko3Do7TA2i35gK-C9S1seaQpEBeABk/view?usp=sharing",
     },
 ];
 
