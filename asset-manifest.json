@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.04e3488f.chunk.css",
-    "main.js": "/static/js/main.c07ad6e8.chunk.js",
-    "main.js.map": "/static/js/main.c07ad6e8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1d148668.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1d148668.js.map",
-    "static/css/2.e39c2ff9.chunk.css": "/static/css/2.e39c2ff9.chunk.css",
-    "static/js/2.a81959da.chunk.js": "/static/js/2.a81959da.chunk.js",
-    "static/js/2.a81959da.chunk.js.map": "/static/js/2.a81959da.chunk.js.map",
-    "static/js/3.a1a976f7.chunk.js": "/static/js/3.a1a976f7.chunk.js",
-    "static/js/3.a1a976f7.chunk.js.map": "/static/js/3.a1a976f7.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.e39c2ff9.chunk.css.map": "/static/css/2.e39c2ff9.chunk.css.map",
-    "static/css/main.04e3488f.chunk.css.map": "/static/css/main.04e3488f.chunk.css.map",
-    "static/js/2.a81959da.chunk.js.LICENSE.txt": "/static/js/2.a81959da.chunk.js.LICENSE.txt",
-    "static/media/all.css": "/static/media/fa-solid-900.decfdcb6.svg"
+    "main.css": "/my_portfolio/static/css/main.e721306e.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.c07ad6e8.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.c07ad6e8.chunk.js.map",
+    "runtime-main.js": "/my_portfolio/static/js/runtime-main.79cf77f0.js",
+    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.79cf77f0.js.map",
+    "static/css/2.e39c2ff9.chunk.css": "/my_portfolio/static/css/2.e39c2ff9.chunk.css",
+    "static/js/2.a81959da.chunk.js": "/my_portfolio/static/js/2.a81959da.chunk.js",
+    "static/js/2.a81959da.chunk.js.map": "/my_portfolio/static/js/2.a81959da.chunk.js.map",
+    "static/js/3.a1a976f7.chunk.js": "/my_portfolio/static/js/3.a1a976f7.chunk.js",
+    "static/js/3.a1a976f7.chunk.js.map": "/my_portfolio/static/js/3.a1a976f7.chunk.js.map",
+    "index.html": "/my_portfolio/index.html",
+    "static/css/2.e39c2ff9.chunk.css.map": "/my_portfolio/static/css/2.e39c2ff9.chunk.css.map",
+    "static/css/main.e721306e.chunk.css.map": "/my_portfolio/static/css/main.e721306e.chunk.css.map",
+    "static/js/2.a81959da.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.a81959da.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/my_portfolio/static/media/fa-solid-900.decfdcb6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d148668.js",
+    "static/js/runtime-main.79cf77f0.js",
     "static/css/2.e39c2ff9.chunk.css",
     "static/js/2.a81959da.chunk.js",
-    "static/css/main.04e3488f.chunk.css",
+    "static/css/main.e721306e.chunk.css",
     "static/js/main.c07ad6e8.chunk.js"
   ]
 }
