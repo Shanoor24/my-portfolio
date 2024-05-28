@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
+import {SocialMedia} from "../SocialMedia/SocialMedia.jsx";
+import {Button} from "../Button/Button.jsx";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 

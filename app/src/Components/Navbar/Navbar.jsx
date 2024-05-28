@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -65,7 +65,16 @@ export const Navbar = () => {
         left: false,
     });
 
+    const [currentPath, setCurrentPath] = useState("")
+
     const handleNavigation = (location) => {
+        if(location === "Resume") {
+            window.open('https://drive.google.com/file/d/1P1SW_m54xLazMZMFTasPEjPi-WAc1CwG/view?usp=sharing', '_blank', 'noopener,noreferrer')
+            return
+        }
+
+        setCurrentPath(location)
+
         location = location.toLowerCase();
         history.push(`/${location}`);
         // console.log(location);
@@ -143,8 +152,9 @@ export const Navbar = () => {
                     "Qualifications",
                     "Skills",
                     "Projects",
-                    "Blogs",
-                    // "Contact",
+                    "Contact",
+                    "Resume",
+                    
                 ].map((text, index) => (
                     <ListItem
                         button
@@ -229,7 +239,7 @@ export const Navbar = () => {
                         style={{
                             display: "flex",
                             gap: "10%",
-                            marginRight: "10%",
+                            marginRight: "17%",
                         }}
                     >
                         <Typography
@@ -300,6 +310,38 @@ export const Navbar = () => {
                             variant="h6"
                             color="inherit"
                             className={`${classes.title} ${styles.typography}`}
+                            onClick={() => handleNavigation("contact")}
+                        >
+                            <NavLink
+                                to="/contact"
+                                activeStyle={{
+                                    color: "teal",
+                                }}
+                                style={{ color: "inherit", textTransform:"capitalize", fontWeight:"900", fontFamily:"Ro" }}
+                            >
+                                Contact
+                            </NavLink>
+                        </Typography>
+                        <Typography
+                            variant="h6"
+                            color="inherit"
+                            className={`${classes.title} ${styles.typography}`}
+                            onClick={() => handleNavigation("Resume")}
+                        >
+                            <NavLink
+                                to={currentPath}
+                                // activeStyle={{
+                                //     color: "teal",
+                                // }}
+                                style={{ color: "inherit", textTransform:"capitalize", fontWeight:"900", fontFamily:"Ro" }}
+                            >
+                                Resume
+                            </NavLink>
+                        </Typography>
+                        {/* <Typography
+                            variant="h6"
+                            color="inherit"
+                            className={`${classes.title} ${styles.typography}`}
                             onClick={() => handleNavigation("blogs")}
                         >
                             <NavLink
@@ -311,7 +353,7 @@ export const Navbar = () => {
                             >
                                 Blogs
                             </NavLink>
-                        </Typography>
+                        </Typography> */}
                         {/* <Typography
                         variant="h6"
                         color="inherit"

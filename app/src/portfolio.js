@@ -2,9 +2,9 @@ export const greeting = {
     title: "Hi, I'm Shanoor ",
     emogi: `emoji("👋")`,
     logo_name: "Shanoor",
-    post: "Frontend Developer",
+    post: "Full Stack Developer",
     subTitle:
-        "Results-driven software engineer with 2 years of experience in web and mobile development. Proficient in Javascript, Jquery, React, Redux, and React Native. Strong problem-solving skills, collaborative mindset, and passion for delivering high-quality solutions. Seeking opportunities to contribute expertise and drive business growth. ",
+        "Results-driven software engineer with 2 years of experience in web and mobile development. Proficient in Javascript, Jquery, React, Redux, React Native, Nodejs, MongoDB, and Express. Strong problem-solving skills, collaborative mindset, and passion for delivering high-quality solutions. Seeking opportunities to contribute expertise and drive business growth. ",
     resumeLink:
         "https://drive.google.com/file/d/1s21tRb0AbCs5vQgm5dBwsHZmxmNqJcFF/view?usp=drive_link",
     portfolioRepository:
@@ -170,8 +170,8 @@ export const frontend_skills = [
         image: "/Images/css3.svg",
     },
     {
-        name: "AntD",
-        image: "/Images/antD.png",
+        name: "Nodejs",
+        image: "/Images/node.svg",
     },
 ];
 
@@ -189,12 +189,12 @@ export const backend_skills = [
         image: "/Images/html5.svg",
     },
     {
-        name: "Gatsby",
-        image: "/Images/gatsby.png",
+        name: "MongoDB",
+        image: "/Images/mongo.svg",
     },
     {
-        name: "Material-UI",
-        image: "/Images/mui.svg",
+        name: "Express",
+        image: "/Images/express.svg",
     },
     
 ];

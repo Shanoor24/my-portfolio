@@ -61,16 +61,16 @@ export const Greeting = () => {
                         </p>
                         <SocialMedia />
                         <div className={styles.portfolio_repo_btn_div}>
-                            <Button
+                            {/* <Button
                                 text="⭐ Rate Me"
                                 newTab={true}
                                 href={greeting.portfolioRepository}
                                 theme={theme}
                                 className={styles.portfolio_repo_btn}
                             />
-                            <br />
+                            <br /> */}
 
-                            <NavLink
+                            {/* <NavLink
                                 to="/Documents/Shanoor_resume.pdf"
                                 target="_blank"
                                 download
@@ -83,7 +83,7 @@ export const Greeting = () => {
                                     theme={theme}
                                     className={styles.portfolio_repo_btn}
                                 />
-                            </NavLink>
+                            </NavLink> */}
                         </div>
                     </div>
                 </div>

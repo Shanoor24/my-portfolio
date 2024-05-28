@@ -7,6 +7,7 @@ import { Experiences } from "../Components/Experiences/Experiences"
 import { Skills } from "./../Components/Skills/Skills";
 import { Projects } from "./../Components/Projects/Projects";
 import { Blogs } from "./../Components/Blogs/Blogs";
+import ContactMe from "./../Components/Contact/ContactMe"
 
 export const Routes = () => {
     return (
@@ -37,6 +38,9 @@ export const Routes = () => {
                 </Route>
                 <Route path="/blogs">
                     <Blogs />
+                </Route>
+                <Route path="/contact">
+                    <ContactMe />
                 </Route>
             </Switch>
         </div>
